@@ -14,9 +14,9 @@ public class Product {
         this.gst = gst;        
 	  }
 	  
-	  double priceWithGST() {
-          return price + (price * gst / 100);
+	  double TotalwithGST(int quantity) {
+          return (price * quantity) + (price * gst / 100);
       }
-}
+} 
 
 
