@@ -2,16 +2,14 @@ package question2;
 
 public class Trigger {
 
-	public static void main(String[] args) throws InterruptedException {
-		 	Job job1 = new Job();
-	        Job job2 = new Job();
+    public static void main(String[] args) throws InterruptedException {
 
-	        job1.start();
+        Job job = new Job();
 
-	        job2.read();
-	        
+        Thread t1 = new Thread(() -> job.increment(), "Increment-Thread");
+        Thread t2 = new Thread(() -> job.read(), "Reader-Thread");
 
-	}
-
+        t1.start();
+        t2.start();
+    }
 }
-
