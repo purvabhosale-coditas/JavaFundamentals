@@ -2,10 +2,8 @@ package coditas;
 
 public class Manager extends Employee{
 	int teamSize = 50;
-	double baseSalary;
 	
-	Manager(double baseSalary){
-		this.baseSalary = baseSalary;
+	Manager(){
 	}
 
 	@Override

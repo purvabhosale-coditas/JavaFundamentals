@@ -2,11 +2,9 @@ package coditas;
 
 public class Intern extends Employee{
 	int attendanceDays;
-	double baseSalary;
 
 	
-	Intern(double baseSalary,int attendanceDays){
-		this.baseSalary = baseSalary;
+	Intern(int attendanceDays){
 		this.attendanceDays = attendanceDays;
 	}
 	

@@ -4,10 +4,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		double baseSalary = 2000;
-		int attendanceDays = 22;
-		int rating = 4;
+		int attendanceDays = 20;
+		int rating = 2;
 		
-		Employee d1 = new Intern(baseSalary,attendanceDays);
+//		Employee d1 = new Intern(attendanceDays);
+//		Employee d1 = new Manager();
+		Employee d1 = new Developer();
 		
 		System.out.println("Employee's Salary Calculation Module:");
 		

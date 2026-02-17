@@ -1,11 +1,9 @@
 package coditas;
 
 public class Developer extends Employee{
-	int overtimehours = 2;
-	double baseSalary;
+	int overtimehours = 5;
 	
-	Developer(double baseSalary){
-		this.baseSalary = baseSalary;
+	Developer(){
 	}
 	
 	@Override

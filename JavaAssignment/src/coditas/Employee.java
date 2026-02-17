@@ -61,7 +61,7 @@ public abstract class Employee implements Salary{
 		if(taxableIncome <= 50000) {
 			taxrate = 0.05;
 		}
-		else if (taxableIncome>=51000 && taxableIncome<=100000) {
+		else if (taxableIncome>=50001 && taxableIncome<=100000) {
 			taxrate = 0.10;
 		}
 		else if (taxableIncome>=100001 && taxableIncome<=150000) {
