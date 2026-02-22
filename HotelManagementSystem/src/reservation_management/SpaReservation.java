@@ -12,7 +12,7 @@ public class SpaReservation extends Reservation {
 
 	@Override
 	public String getReservationType() {
-		return "SpaReservation";
+		return "Spa Reservation";
 	}
 	
 	@Override

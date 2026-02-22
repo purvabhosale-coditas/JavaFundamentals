@@ -20,7 +20,7 @@ public class RoomReservation extends Reservation{
 
 	@Override
 	public String getReservationType() {
-		return "RoomReservation";
+		return "Room Reservation";
 	}
 
 	@Override

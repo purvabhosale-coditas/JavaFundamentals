@@ -77,7 +77,7 @@ public class ReservationService {
 				 Reservation r = reservations.get(i);
 				 if (r.getReservation_id().equalsIgnoreCase(reservationId)) {
 					 
-					 // make room available again                
+					    // make room available again                
 	 					if (r instanceof RoomReservation) {
 	 					RoomReservation rr = (RoomReservation) r;
 	 					roomService.makeRoomAvailable(rr.getRoomNo());

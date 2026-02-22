@@ -13,7 +13,7 @@ public class EventHallReservation extends Reservation{
 
 	@Override
 	public String getReservationType() {
-		return "EventHallReservation";
+		return "Event Hall Reservation";
 	}
 	
 	@Override
